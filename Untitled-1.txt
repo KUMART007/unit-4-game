@@ -1,0 +1,89 @@
+</head>
+
+<body>
+
+    <header class="title justify-content-center">
+        <h1>crystal Collector</h1>
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="instruction">
+                <h3>You will be given a target number at the start game</h3>
+                <br>
+                <h3>the are four crystals below. By clicking on a crystals you will add a specific amount of
+                    ponits to your total score</h3>
+
+                <br>
+                <h3>you will the the game by matching the toatl score to random numbers,<br>
+                    you loss gameif yout total score goes above the random number <br>
+                </h3>
+                <h3>the value of crystals is hidden untill you click from it</h3>
+                <br>
+                <h3> Each time the game start the game will change the value of each crystal </h3>
+            </div>
+
+</body>
+
+</div>
+</div>
+
+<div class="card target">target score</div>
+<div class="card win loss">
+    <p id="winds">wins</p>
+    <br>
+    <p id="loss">losses</p>
+    <button class="btn btn-default">
+
+
+
+
+
+     <!-- html -->
+        <div class="wrapper">
+         
+         <div class="header">
+           <h1>Crystal Collector</h1>
+         </div>
+         
+         <div class="description">
+           <p> You will be given a random number at the start of the game. </p>
+    
+           <p> There are four crystals below. By clicking on the crystal you 
+           will add a specific amount of points to your total score. </p>
+    
+           <p> You win the game by matching your total score to a random 
+           number, you lose the game if your total score goes above
+           the random number. </p>
+    
+           <p> The value of each crystal is hidden from you until you 
+           click on it. </p>
+    
+           <p> Each time when the game starts, the game will change the 
+           values of each crystal.</p>
+         </div>
+           
+         <div class="randomCompNumberBox" id="randomCompNumberBox">kseeeef</div>
+    
+         <div class="losses" id="losses">LOSSES:</div>
+    
+         <div class="wins" id="wins">WINS:</div>
+    
+         <div class="cryss" id="0" onclick="addToScore(this.id)">
+
+        <img src="./assets/images/cry4.jpg" width="200" alt="200" />
+    </button>
+    <button class="btn btn-default">
+        <img src="./assets/images/crys.jpg" width="200" alt="200" />
+    </button>
+    <button class="btn btn-default">
+        <img src="./assets/images/crys3.jpg" width="200" alt="200" />
+    </button>
+    <button class="btn btn-default">
+        <img src="./assets/images/cryss.jpg" width="200" alt="200" />
+
+        <body background="./asset/image/backgr.png" width="2.5">
+        </body>
+        <div class="playerScore" id="playerScore">PLAYER SCORE:</div>
+
+        <div class="clear" onclick="clearGame()">CLEAR</div>

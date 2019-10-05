@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystalsCollector</title>
+    <link rel="stylesheet" href="/assets/images/backgr.png">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/javascript/game.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="title justify-content-center">
+        <h1>crystal Collector</h1>
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="instruction">
+                <h3>you will be given a target number at the start game</h3>
+                <br>
+                <h3>the are four cbrystals below. by clicking ac crystals you will add a specific amount of
+                    score?</h3>
+
+                <br>
+                <h3>the value of crybstals is hidden untill you click from it</h3>
+                <br>
+                <h3>each time the game start the game will change the value of each crystal </h3>
+            </div>
+    </div>
+    
+    <div class="card target">target score</div>
+    <div class="card win loss">
+        <p id="winds">win</p>
+        <br>
+        <p id="loss">loss</p>
+        <button class="btn btn-default">
+
+            <img src="./assets/images/cry4.jpg" width="200" alt="200" />
+        </button>
+        <button class="btn btn-default">
+            <img src="./assets/images/crys.jpg" width="200" alt="200" />
+        </button>
+        <button class="btn btn-default">
+            <img src="./assets/images/crys3.jpg" width="200" alt="200" />
+        </button>
+        <button class="btn btn-default">
+            <img src="./assets/images/cryss.jpg" width="200" alt="200" />
+        </button>
+
+    </div>
